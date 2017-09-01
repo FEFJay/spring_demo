@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+
+<!--没有集成spring时可以用，集成spring后这个文件主要内容都做spring配置文件中完成-->
+<configuration>
+    <!--&lt;!&ndash; 指定数据库连接信息的位置 &ndash;&gt;-->
+    <!--<properties resource="mybatis/mysql.properties"></properties>-->
+
+    <!--设置类别名，默认引入该包下的所有类，这样在写Mapper文件的时候就可以只写entity的类名，而不用写全名那么麻烦 -->
+    <typeAliases>
+        <package name="com.jay.entities"/>
+    </typeAliases>
+
+    <!--&lt;!&ndash;配置mysql的链接信息，基本数据从配置文件里面读取&ndash;&gt;-->
+    <!--<environments default="development">-->
+        <!--<environment id="development">-->
+            <!--<transactionManager type="JDBC" />-->
+            <!--<dataSource type="POOLED">-->
+                <!--<property name="driver" value="${driver}" />-->
+                <!--<property name="url" value="${url}" />-->
+                <!--<property name="username" value="${username}" />-->
+                <!--<property name="password" value="${password}" />-->
+            <!--</dataSource>-->
+        <!--</environment>-->
+    <!--</environments>-->
+
+    <!--&lt;!&ndash;引入映射文件 &ndash;&gt;-->
+    <!--<mappers>-->
+        <!--<mapper resource="mybatis/mapping/UserDaoMapper.xml" />-->
+    <!--</mappers>-->
+
+</configuration>
