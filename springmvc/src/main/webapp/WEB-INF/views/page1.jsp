@@ -2,9 +2,7 @@
 
 <html>
 <head>
-
 </head>
-
 <body>
 <h1>Hello world!</h1>
 ${user.id}
