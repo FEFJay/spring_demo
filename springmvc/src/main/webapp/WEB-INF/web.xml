@@ -43,7 +43,7 @@
     <param-value>classpath:log4j.properties</param-value>
   </context-param>
 
-  <!--spring上下文监听器，如果没有-->
+  <!--spring上下文监听器-->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>

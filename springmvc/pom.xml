@@ -68,6 +68,14 @@
       <version>${spring.version}</version>
     </dependency>
 
+    <!-- 添加AOP插件 https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.8.9</version>
+    </dependency>
+
+
     <!--单元测试依赖 -->
     <dependency>
       <groupId>junit</groupId>

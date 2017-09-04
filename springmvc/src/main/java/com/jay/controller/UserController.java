@@ -21,8 +21,13 @@ public class UserController {
     @Resource
     private UserService service;
 
+    /**
+     * 返回user对象信息给page1.jsp处理，然后在前端页面展示
+     *
+     * @return
+     */
     @RequestMapping("/page1")
-    public ModelAndView helloWord() {
+    public ModelAndView getUser() {
         System.out.println("访问page1的后台。。。");
         ModelAndView mav = new ModelAndView("page1");
         List<User> users = service.getAllUser();
@@ -32,6 +37,12 @@ public class UserController {
 //        return "page1"; //跳转到.jsp结尾的对应文件（page1.jsp）,此时返回值是String
     }
 
+    /**
+     * 直接返回字符串给请求的页面
+     * @param request
+     * @param response
+     * @return
+     */
     @RequestMapping(value = "/say", produces = "text/html;charset=UTF-8")
     @ResponseBody
     public String sayHi(HttpServletRequest request, HttpServletResponse response) {

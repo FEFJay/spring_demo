@@ -1,0 +1,10 @@
+2017-09-02 12:02:52  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@53bd815b: startup date [Sat Sep 02 12:02:52 CST 2017]; root of context hierarchy
+  2017-09-02 12:02:53  [ main:345 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+  2017-09-02 12:02:54  [ main:1097 ] - [ WARN ]  No MyBatis mapper was found in '[com.jay.dao.*]' package. Please check your configuration.
+  2017-09-02 12:02:54  [ main:1119 ] - [ INFO ]  Loading properties file from class path resource [mybatis/mysql.properties]
+  2017-09-02 12:02:54  [ main:1126 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-09-02 12:02:54  [ main:1171 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+  2017-09-02 12:02:55  [ main:2348 ] - [ INFO ]  1,bing,BoBai
+  2017-09-02 12:02:55  [ main:2348 ] - [ INFO ]  2,Jay,BoBai
+  2017-09-02 12:02:55  [ main:2348 ] - [ INFO ]  3,baba,YuLin
+  

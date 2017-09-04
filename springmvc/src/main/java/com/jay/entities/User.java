@@ -1,6 +1,5 @@
 package com.jay.entities;
 
-import org.springframework.stereotype.Repository;
 
 public class User {
     private Integer id;
